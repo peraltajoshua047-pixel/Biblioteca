@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca.com🔎</title>
+    <style>
+            body{
+            background-image: url(https://hips.hearstapps.com/hmg-prod/images/biblioteca-gabriel-garcia-marquez-en-barcelona-portada-6537d342656f9.jpg?crop=0.760xw:1.00xh;0.182xw,0&resize=1200:*);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(20, 20, 19);
+        }
+
+        .menu {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border:2px solid #8b4513;
+}
+.menu button{
+     background-color: crimson;
+            color: #fffdfd;
+            border-radius: 10px;
+            border: #080808;
+            width: 15%;
+           padding: 15px;
+           margin-left: 50%;
+
+}
+
+.menu a {
+    color: #8b4513;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.menu a:hover {
+    color: crimson;
+}
+
+        .pan1{
+            border: 2px solid crimson;
+            border-radius: 5%;
+            width: 21%;
+            height: 25%;
+            border-radius: 5px;
+            background-color: white;
+            margin-left: 15px;
+        }
+
+         .pan2{
+            border: 2px solid blue;
+            border-radius: 5%;
+            width: 21%;
+            height: 25%;
+            border-radius: 5px;
+              margin-left: 40%;
+              margin-top: -45.5%;
+  background-color: white;
+        }
+
+         .pan3{
+            border: 2px solid yellow ;
+            border-radius: 5%;
+            width: 21%;
+            height: 25%;
+            border-radius: 5px;
+             margin-left: 77%;
+              margin-top: -49.4%;
+                background-color: white;
+        }
+        
+         .pan4{
+            border: 2px solid blueviolet;
+            border-radius: 5%;
+            width: 21%;
+            height: 25%;
+            border-radius: 5px;
+            margin-top: 5%;
+              background-color: white;
+              margin-left: 10px;
+        }
+
+         .pan5{
+            border: 2px solid red;
+            border-radius: 5%;
+            width: 21%;
+            height: 25%;
+            border-radius: 5px;
+             margin-left: 40%;
+            margin-top: -39.8%;
+              background-color: white;
+        }
+
+         .pan6{
+            border: 2px solid black;
+            border-radius: 5%;
+            width: 21%;
+            height: 25%;
+            border-radius: 5px;
+              margin-left: 77%;
+            margin-top: -45.8%;
+              background-color: white;
+        }
+
+         .pan7{
+            border: 2px solid cadetblue;
+            border-radius: 5%;
+            width: 21%;
+            height: 25%;
+            border-radius: 5px;
+            margin-top: 13%;
+  background-color: white;
+  margin-left: 10px;
+        }
+
+        .pan8{
+            border: 2px solid peru;
+            border-radius: 5%;
+            width: 21%;
+            height: 25%;
+            border-radius: 5px;
+            margin-top: 13%;
+            margin-left: 77%;
+            margin-top: -44.8%;
+            background-color: white;
+        }
+
+        .pan9{
+            border: 2px solid cornflowerblue;
+            border-radius: 5%;
+            width: 21%;
+            height: 25%;
+            border-radius: 5px;
+            margin-top: 13%;
+            margin-left: 40%;
+            margin-top: -45.8%;
+            background-color: white;
+        }
+
+        .pan10{
+                 border: 2px solid cornflowerblue;
+            border-radius: 5%;
+            width: 99%;
+            height: 25%;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+    .pan10 span{
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+        h3{
+            background-color: white;
+        }
+
+        p{
+            background-color: white;
+        }
+        .pan1 button{
+            background-color: crimson;
+            color: #fffdfd;
+            border-radius: 10px;
+            border: #080808;
+            width: 50%;
+           padding: 5%;
+           margin-left: 65px;
+           margin-top: 2px;
+        }
+
+        .pan2 button{
+            background-color: blue;
+            color: #fffdfd;
+            border-radius: 10px;
+            border: #080808;
+            width: 50%;
+           padding: 5%;
+            margin-left: 65px;
+           margin-top: 2px;
+        }
+
+        .pan3 button{
+            background-color: rgba(255, 255, 0, 0.932);
+            color: #fffdfd;
+            border-radius: 10px;
+            border: #080808;
+            width: 50%;
+           padding: 5%;
+            margin-left: 65px;
+           margin-top: 2px;
+        }
+
+        .pan4 button{
+            background-color: blueviolet;
+            color: #fffdfd;
+            border-radius: 10px;
+            border: #080808;
+            width: 50%;
+           padding: 5%;
+            margin-left: 65px;
+           margin-top: 2px;
+        }
+
+        .pan5 button{
+            background-color: red;
+            color: #fffdfd;
+            border-radius: 10px;
+            border: #080808;
+            width: 50%;
+           padding: 5%;
+            margin-left: 65px;
+           margin-top: 2px;
+        }
+
+        .pan6 button{
+            background-color: black;
+            color: #fffdfd;
+            border-radius: 10px;
+            border: #080808;
+            width: 50%;
+           padding: 5%;
+            margin-left: 65px;
+           margin-top: 2px;
+        }
+
+        .pan7 button{
+            background-color: cadetblue;
+            color: #fffdfd;
+            border-radius: 10px;
+            border: #080808;
+            width: 50%;
+           padding: 5%;
+ margin-left: 65px;
+           margin-top: 2px;
+        }
+
+        .pan8 button{
+            background-color: peru;
+            color: #fffdfd;
+            border-radius: 10px;
+            border: #080808;
+            width: 50%;
+           padding: 5%;
+            margin-left: 65px;
+           margin-top: 2px;
+        }
+
+        .pan9 button{
+            background-color: cornflowerblue;
+            color: #fffdfd;
+            border-radius: 10px;
+            border: #080808;
+            width: 50%;
+           padding: 5%;
+            margin-left: 65px;
+           margin-top: 2px;
+        }
+
+        button:hover{
+            transform: translateY(-5px);
+            transition: all 0.3s;
+            background-color: rgb(41, 3, 10);
+        }
+         
+       .pan1:hover,
+.pan2:hover,
+.pan3:hover,
+.pan4:hover,
+.pan5:hover,
+.pan6:hover,
+.pan7:hover,
+.pan8:hover,
+.pan9:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+             }
+ 
+        img{
+            border: 2px solid rgb(10, 10, 10);
+            border-radius: 30px;
+            margin-left: 5px;
+            margin-top: 9px;
+        }
+
+       .footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 3px solid #8b4513;
+}
+
+.footer h3,
+.footer p {
+    background-color: white;
+}
+
+.footer a {
+    color: #8b4513;
+    text-decoration: none;
+    margin: 15px;
+}
+    </style>
+<body>
+       <nav class="menu">
+        <img width="30px" height="30px"  src="c:\Users\peral\Downloads\ChatGPT Image 25 sept 2026, 12_01_53.png">
+    <a href="Tarea de dianelva.html">Inicio</a>
+    <a href="Producto.html">Libros</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#sucursales">Sucursales</a>
+    <button><a href="Producto.html"></a></button>
+       </nav>
+<h1>Lee tus libros favoritos a tus gustos.</h1>
+
+<h2>Libros disponibles</h2>
+<div class="pan1">
+    <img width="267px" height="250px" src="https://m.media-amazon.com/images/M/MV5BYTkyYjVkNDItODc1Ny00NzA1LTkwY2YtZDUwNTlhMDk3MTZiXkEyXkFqcGc@._V1_.jpg">
+    <h3>Harry Potter y la piedra filosofal.</h3>
+    <p>Descrición:Harry Potter y la piedra filosofal,
+         de J. K. Rowling, cuenta la historia de Harry, 
+         un niño que descubre que es mago y comienza a estudiar en Hogwarts. 
+         Allí conoce a Ron y Hermione,
+          y juntos descubren un misterio relacionado con la Piedra Filosofal
+           y el regreso de Voldemort. La historia destaca la amistad
+           , el valor y el trabajo en equipo.
+</p>
+    <button><a href="Producto.html">Pedir
+    </button></a>
+</div>
+
+<br>
+<div class="pan2">
+    <img width="267px" height="250px" src="https://cdn.kobo.com/book-images/27525b70-25dd-479b-91f6-107b3646cb3f/1200/1200/False/don-quijote-de-la-mancha-para-ninos-nueva-edicion-1.jpg">
+    <h3>Don Quijote de la Mancha</h3>
+    <p>Descrición: Don Quijote de la Mancha, 
+        escrito por Miguel de Cervantes, 
+        cuenta la historia de Alonso Quijano, 
+        un hombre que, después de leer muchos libros de caballería, 
+        cree que es un caballero andante llamado Don Quijote. 
+        Junto a su fiel compañero Sancho Panza, 
+        vive diversas aventuras mientras intenta defender a los necesitados
+         y luchar contra supuestos enemigos. La obra combina aventura, humor
+          y crítica de la sociedad, mostrando la diferencia entre la realidad 
+          y la imaginación.</p>
+    <button><a href="Producto.html">Pedir
+    </button></a>
+</div>
+<br>
+<div class="pan3">
+   <img width="267px" height="250px" src="https://m.media-amazon.com/images/I/81dBNY1qgUL._UF1000,1000_QL80_.jpg">
+    <h3>Cien años de soledad</h3>
+    <p>Descrición: Cien años de soledad, escrito por Gabriel García Márquez,
+         cuenta la historia de la familia Buendía durante varias generaciones
+          en el pueblo ficticio de Macondo. La novela mezcla hechos reales con 
+          elementos mágicos y muestra temas como el amor, la soledad, la guerra
+           y el paso del tiempo.</p>
+    <button><a href="Producto.html">Pedir </button>
+</div
+<br></a>
+<div class="pan4">
+       <img width="267px" height="250px" src="https://www.edicontinente.com.ar/image/titulos/9788419087492.jpg">
+    <h3>El Principito</h3>
+    <p>Descrición: El Principito, escrito por Antoine de Saint-Exupéry, 
+        cuenta la historia de un pequeño príncipe que viaja por diferentes
+         planetas y conoce a varios personajes. En la Tierra conoce a un piloto 
+         y a un zorro, quienes le enseñan sobre la amistad, el amor, la responsabilidad
+          y la importancia de valorar lo que realmente importa.</p>
+    <button><a href="Producto.html">Pedir
+    </button></a>
+</div>
+<br>
+<div class="pan5">
+       <img width="267px" height="250px" src="https://m.media-amazon.com/images/I/61YUYPYlkzL._AC_UF1000,1000_QL80_.jpg">
+    <h3>La Odiosea</h3>
+    <p>Descrición:La Odisea, escrita por Homero,
+         cuenta el largo viaje de Odiseo (Ulises) 
+         para regresar a su hogar después de la guerra de Troya. 
+         Durante el camino enfrenta monstruos, dioses y muchos peligros.
+          La obra destaca temas como la valentía, la inteligencia,
+           la perseverancia y el deseo de regresar a casa.</p>
+    <button><a href="Producto.html">Pedir
+    </button></a>
+</div>
+<br>
+    <div class="pan6">
+       <img width="267px" height="250px" src="https://cdn.waterstones.com/bookjackets/large/9780/1410/9780141036144.jpg">
+    <h3>1984</h3>
+    <p>Descrición: 1984, escrita por George Orwell, 
+        cuenta la historia de Winston Smith, 
+        un hombre que vive en una sociedad 
+        controlada por un gobierno que vigila 
+        constantemente a sus ciudadanos. 
+        Winston comienza a cuestionar al sistema 
+        y busca libertad. La novela trata temas
+        como el control, la vigilancia, la libertad
+         y la manipulación de la información.</p>
+    <button><a href="Producto.html">Pedir</button>
+        </a>
+    </div>
+    <br>
+    <div class="pan7">
+       <img width="267px" height="250px" src="https://www.cuestalibros.com/content/images/thumbs/0136169_orgullo-y-prejuicio-ed-conmemorativa_550.jpeg">
+    <h3>Orgullo y Prejuicio</h3>
+    <p>Descrición: Orgullo y prejuicio, 
+        escrita por Jane Austen, cuenta la historia de Elizabeth Bennet,
+         una joven que conoce al orgulloso señor Darcy. Al principio,
+          ambos tienen una mala impresión del otro,
+           pero con el tiempo descubren sus verdaderos sentimientos. La novela trata sobre el amor, las diferencias sociales, el orgullo y los prejuicios.</p>
+    <button><a href="Producto.html">Pedir</button></a>
+    </div>
+    </di>
+</div>
+</div>
+<br>
+<div class="pan8">
+       <img width="267px" height="250px" src="https://image.isu.pub/120724095254-4698c28a81ea425abe7f75d0c0facfa4/jpg/page_1_thumb_large.jpg">
+    <h3>La vuelta al  mundo en 80 dias</h3>
+    <p>Descrición:La vuelta al mundo en 80 días, escrita por Julio Verne,
+         cuenta la historia de Phileas Fogg, un hombre que apuesta que puede
+          viajar alrededor del mundo en 80 días. Junto a su sirviente Passepartout, 
+          enfrenta retrasos, peligros y diferentes aventuras mientras intenta cumplir 
+          su desafío. La obra destaca la aventura, la perseverancia y la determinación. </p>
+    <button><a href="Producto.html">Pedir</button></a>
+    </div>
+<br>
+<div class="pan9">
+       <img width="267px" height="250px" src="https://static.wikia.nocookie.net/cuentos-de-hadas-y-tradicionales/images/3/33/315588.jpg/revision/latest?cb=20180406145050&path-prefix=es">
+    <h3>Cenicienta</h3>
+    <p>Descrición: Cenicienta es un cuento clásico que narra la historia 
+        de una joven que vive con su madrastra y sus hermanastras,
+         quienes la tratan mal. Con la ayuda de su hada madrina,
+          logra asistir a un baile donde conoce a un príncipe.
+           Al perder su zapato de cristal, el príncipe lo
+            utiliza para encontrarla. La historia destaca 
+            la bondad, la esperanza y la perseverancia.</p>
+    <button><a href="Producto.html">Pedir
+    </button></a>
+</div>
+<br> 
+<div class="pan10">
+    <h1>Historia</h1>
+    <br>
+    <span>Nuestra biblioteca es un espacio creado para los amantes de la lectura. Aquí podrás
+ encontrar diferentes tipos de libros, conocer nuevas historias y descubrir autores interesantes.
+ También puedes consultar los libros disponibles y solicitar el que quieras leer.
+Nuestro objetivo es facilitar el acceso a la lectura y crear un lugar donde todos
+ puedan aprender, imaginar y disfrutar de los libros.</span>
+</div>
+<br>
+<footer class="footer">
+    <h3>📚 Biblioteca Comunitaria</h3>
+    <p>Lee, aprende y descubre nuevas historias.</p>
+
+    <a href="Tarea de dianelva.html">Inicio</a>
+    <a href="#">Contactos</a>
+    <a href="#">Sucursales</a>
+
+    <p>© 2026 Biblioteca Comunitaria</p>
+</footer>
+</body>
+</html>
